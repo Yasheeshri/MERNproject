@@ -1,0 +1,125 @@
+/* .last-row {
+    height: 5px !important;
+   
+  }
+   */
+
+
+
+
+
+
+
+
+   .result-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .screenshot-container {
+    position: relative;
+    background-color: white;
+    max-width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .profile-container {
+    display: flex;
+    align-items: center;
+    
+    height:200px;
+  }
+  .profile-image {
+    width: 160px;
+    height: 160px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    border: 4px solid black;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .profile-details {
+    margin-left: 20px;
+    font-family: cursive;
+     font-size: 14px;
+    
+  }
+  
+  .profile-details div {
+    margin-bottom: 0px;
+  }
+  
+  /* .label {
+    font-weight: bold;
+  } */
+  .marks-table-container {
+    width: fit-content;
+    margin-top: 0px;
+    width:100%;
+  }
+  
+  .marks-table {
+    width: 100%;
+    height:150px;
+    border-collapse: collapse;
+    border: 0.8px solid black;
+  }
+  
+  .marks-table th,
+  .marks-table td {
+    padding: 5px; /* Adjust the padding to make the cells smaller */
+    font-size: 10px; /* Adjust the font size to make the text smaller */
+    text-align: center;
+    border: 0.8px solid black;
+  }
+  
+  .marks-table .last-row {
+    background-color: pink;
+  }
+  
+  .marks-table .total-label {
+    background-color: pink;
+  }
+  .result-label {
+    background-color: lightgreen;
+  }
+  
+  
+  .result-details {
+    margin-top: 0px;
+    font-family: cursive;
+    background-color: pink;
+    padding: 0px;
+  }
+  
+  .upload-button-container {
+    text-align: right;
+    margin-top: 400px;
+  
+  }
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    

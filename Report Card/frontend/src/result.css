@@ -1,0 +1,119 @@
+
+
+#screenshot {
+    position: relative;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .photo-container {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border: 4px solid black;
+    border-radius: 50%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+  }
+  
+  .photo-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .table-container {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+  }
+  
+  .result-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+    height: 100px;
+    background-color: pink;
+    margin-bottom: 20px;
+  }
+  
+  .result-container h1 {
+    font-family: cursive;
+  }
+  
+  .percentage-container {
+    background-color: pink;
+    font-family: cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+    height: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .percentage-container h5 {
+    font-family: cursive;
+  }
+  
+  .grade-container {
+    background-color: pink;
+    font-family: cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+    height: 30px;
+  }
+  
+  .grade-container h5 {
+    font-family: cursive;
+  }
+  
+  .screenshot-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  @media (max-width: 600px) {
+    .photo-container {
+      width: 120px;
+      height: 120px;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .photo-container {
+      width: 100px;
+      height: 100px;
+    }
+  
+    .table-container {
+      max-width: 300px;
+    }
+  
+    .result-container {
+      max-width: 300px;
+    }
+  
+    .percentage-container {
+      max-width: 300px;
+    }
+  
+    .grade-container {
+      max-width: 300px;
+    }
+  }
+  

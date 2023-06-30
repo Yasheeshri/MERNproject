@@ -1,0 +1,61 @@
+
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    10% { transform: translateX(-10px); }
+    20% { transform: translateX(10px); }
+    30% { transform: translateX(-10px); }
+    40% { transform: translateX(10px); }
+    50% { transform: translateX(-10px); }
+    60% { transform: translateX(10px); }
+    70% { transform: translateX(-10px); }
+    80% { transform: translateX(10px); }
+    90% { transform: translateX(-10px); }
+    100% { transform: translateX(0); }
+}
+
+.shaking-heading {
+    padding-top: 150px;
+    animation-name: shake;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+
+.failure-container {
+    text-align: center;
+    color: red;
+    font-family: cursive;
+    background-color: whitesmoke;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .shaking-heading {
+    padding-top: 10%;
+    font-size: 4rem;
+    color: red;
+  }
+  
+  .failure-message {
+    font-size: 2rem;
+    color: red;
+    margin-bottom: 2rem;
+  }
+  
+  .retry-button {
+    font-size: 2rem;
+    color: red;
+  }
+  
+
+
+
+
+
+

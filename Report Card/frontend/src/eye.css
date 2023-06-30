@@ -1,0 +1,15 @@
+.password-input-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .password-input-wrapper input {
+    padding-right: 30px; /* Adjust the padding to accommodate the icon */
+  }
+  
+  .password-toggle-icon {
+    position: absolute;
+    right: 50px; /* Adjust the position as needed */
+    cursor: pointer;
+  }
+  

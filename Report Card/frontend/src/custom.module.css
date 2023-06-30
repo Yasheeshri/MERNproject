@@ -1,0 +1,11 @@
+.success{
+    background-color:black;
+    color:red;
+    padding:10px;
+    text-align:center;
+
+}
+::selection {
+  background-color:white;
+  color:rgb(0, 255, 26);
+}

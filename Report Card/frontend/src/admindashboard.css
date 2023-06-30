@@ -1,0 +1,8 @@
+.navbar-nav .nav-link {
+    margin-right: 50px; /* Adjust the value as per your preference */
+     
+  }
+  .link:hover {
+    color:whitesmoke;/* brighter color */
+    transition: red 0.9s; /* add a smooth transition effect */
+  }

@@ -1,0 +1,10 @@
+.link {
+    text-decoration: none;
+    color: rgb(245, 245, 245);
+    margin: 0 35px;
+  }
+  
+  .link:hover {
+    color: rgb(11, 11, 10); /* brighter color */
+    transition: color 0.5s; /* add a smooth transition effect */
+  }
